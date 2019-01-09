@@ -1,0 +1,40 @@
+.to-do-list-container {
+  margin-top: 25px;
+}
+.to-do-list-item {
+  margin-top: 10px;
+  color: white;
+  transition: background-color 1s;
+}
+
+.to-do-list-item h4 {
+  padding-left: 25px;
+  padding-bottom: 5px;
+}
+
+.to-do-list-item:hover {
+  background-color: dodgerblue !important;
+}
+
+.complete-todo-item {
+  float: right;
+  right: 20px;
+}
+
+#todo-add-form {
+  animation: 1s;
+  animation-name: slidein;
+}
+
+input#todoNext:active {
+  border-bottom: 1px solid dodgerblue !important;
+}
+
+@keyframes slidein {
+  from {
+    opacity: 0;
+  }
+  to {
+    margin-left: 1;
+  }
+}
